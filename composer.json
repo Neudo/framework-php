@@ -1,0 +1,21 @@
+{
+    "name": "quentin/projet",
+    "autoload": {
+        "psr-4": {
+            "Quentin\\Projet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "subskill-quentin",
+            "email": "91881904+subskill-quentin@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "league/plates": "^3.4",
+        "fakerphp/faker": "^1.21",
+        "filp/whoops": "^2.14",
+        "nesbot/carbon": "^2.64"
+    }
+}
