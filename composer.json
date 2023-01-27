@@ -11,11 +11,18 @@
             "email": "91881904+subskill-quentin@users.noreply.github.com"
         }
     ],
+    "scripts": {
+        "serve": "php -S 0.0.0.0:8080 -t public"
+    },
     "require": {
         "vlucas/phpdotenv": "^5.5",
         "league/plates": "^3.4",
         "fakerphp/faker": "^1.21",
         "filp/whoops": "^2.14",
-        "nesbot/carbon": "^2.64"
+        "nesbot/carbon": "^2.64",
+        "league/route": "^5.1",
+        "laminas/laminas-diactoros": "^2.24",
+        "laminas/laminas-httphandlerrunner": "^2.4",
+        "twig/twig": "^2.0"
     }
 }
